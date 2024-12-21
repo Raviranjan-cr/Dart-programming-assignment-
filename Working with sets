@@ -1,0 +1,12 @@
+void main() {
+  Set<int> setA = {1, 2, 3};
+  Set<int> setB = {3, 4, 5};
+
+  print("Union: ${setA.union(setB)}");
+  print("Intersection: ${setA.intersection(setB)}");
+  print("Difference: ${setA.difference(setB)}");
+}
+output
+Union: {1, 2, 3, 4, 5}
+Intersection: {3}
+Difference: {1, 2}
