@@ -1,0 +1,14 @@
+void main() {
+  var numbers = [1, 2, 3, 4, 5];
+
+  numbers.forEach((number) {
+    print("Number: $number");
+  });
+}
+
+output 
+Number: 1
+Number: 2
+Number: 3
+Number: 4
+Number: 5
