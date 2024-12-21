@@ -1,0 +1,19 @@
+void main() {
+  List<int> numbers = [1, 2, 3, 4, 5];
+
+  // Add an element
+  numbers.add(6);
+  print(numbers);
+
+  // Remove an element
+  numbers.remove(3);
+  print(numbers);
+
+  // Update an element
+  numbers[2] = 10;
+  print(numbers);
+}
+output
+[1, 2, 3, 4, 5, 6]
+[1, 2, 4, 5, 6]
+[1, 2, 10, 5, 6]
